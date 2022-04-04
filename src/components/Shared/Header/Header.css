@@ -1,0 +1,29 @@
+.navBarColor{
+    background-color: #fff!important;
+}
+
+.navSpace{
+    letter-spacing: 1.5px!important;
+}
+
+.logoImg img{
+    width: 180px;
+}
+
+.middleLink{
+    margin: 0 auto;
+}
+
+.navName{
+    margin: 0 20px;
+    font-size: 16px;
+    color: rgb(73, 73, 73)!important;
+}
+
+.bookBtn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    letter-spacing: 1.5px!important;
+}
