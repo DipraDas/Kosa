@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
-import Home from './components/Pages/Home/Home';
 import About from './components/Pages/About/About';
 import Services from './components/Pages/Services/Services';
 import Contact from './components/Pages/Contact/Contact';
 import NotFound from './components/Pages/NotFound/NotFound';
 import Header from './components/Shared/Header/Header';
+import HomeComponents from './components/Pages/Home/HomeComponents/HomeComponents';
 
 function App() {
   return (
@@ -16,10 +16,10 @@ function App() {
       <Header></Header>
       <Switch>
         <Route exact path='/'>
-          <Home></Home>
+          <HomeComponents></HomeComponents>
         </Route>
         <Route path='/home'>
-          <Home></Home>
+          <HomeComponents></HomeComponents>
         </Route>
         <Route path='/about'>
           <About></About>

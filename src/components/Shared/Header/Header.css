@@ -1,3 +1,7 @@
+.navBar{
+    padding: 0 5px;
+}
+
 .navBarColor{
     background-color: #fff!important;
 }
@@ -24,6 +28,6 @@
     background-color: black;
     color: #fff;
     border: none;
-    padding: 12px 30px;
+    padding: 17px 30px;
     letter-spacing: 1.5px!important;
 }
