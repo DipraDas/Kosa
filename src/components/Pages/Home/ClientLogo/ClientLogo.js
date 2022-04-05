@@ -11,22 +11,22 @@ const ClientLogo = () => {
         <div className="clientLogo">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-6 col-sm-3">
+                    <div className="col-xl-3 col-lg-12">
                         <Card>
                             <Card.Img variant="top" src={logo1} />
                         </Card>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-3">
+                    <div className="col-xl-3 col-lg-12">
                         <Card>
                             <Card.Img variant="top" src={logo2} />
                         </Card>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-3">
+                    <div className="col-xl-3 col-lg-12">
                         <Card>
                             <Card.Img variant="top" src={logo3} />
                         </Card>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-3">
+                    <div className="col-xl-3 col-lg-12">
                         <Card>
                             <Card.Img variant="top" src={logo4} />
                         </Card>

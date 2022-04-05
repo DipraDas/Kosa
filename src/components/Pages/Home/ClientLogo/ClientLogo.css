@@ -1,4 +1,4 @@
-.cientLogo{
+.clientLogo{
     padding: 25px 5px;
 }
 
@@ -8,4 +8,5 @@
 
 .card-img-top{
     width: 350px;
+    margin: 0 auto;
 }
