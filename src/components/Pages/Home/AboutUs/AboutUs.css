@@ -10,7 +10,7 @@
 .aboutUs h2{
     font-size: 20px;
     letter-spacing: 5px;
-    color: rgb(198, 198, 198);
+    color: rgb(177, 177, 177);
 }
 
 .aboutUs h1{
@@ -32,12 +32,19 @@
     margin-bottom: 25px;
 }
 
-button{
+.aboutUsBtn{
     padding: 12px 26px;
     box-sizing: border-box;
     background-color: black;
     border: 1px solid #fff;
     color: #fff;
+    transition: .4s;
+}
+
+.aboutUsBtn:hover{
+    box-shadow: 0 0 7px 1px inset #D4A977;
+    border: 1px solid #D4A977;
+    border-radius: 5px;
 }
 
 

@@ -13,7 +13,7 @@ const AboutUs = () => {
                     <h2>ABOUT US</h2>
                     <h1 className='px-5'>WE TELL AMAZING STORIES WITH HAIR</h1>
                     <p className='px-5'>"We believe our work is best done when it is done with passion and with perfection. We always strive to do something different, something better, something new, This is the place where passion, lifestyle and beauty all come together."</p>
-                    <button>BOOK NOW</button>
+                    <button className='aboutUsBtn'>BOOK NOW</button>
                 </div>
             </div>
         </div>
