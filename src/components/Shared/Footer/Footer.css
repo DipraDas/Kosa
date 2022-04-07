@@ -1,5 +1,10 @@
 .footer {
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+    background-image: url('../../../../src/Images/HomePage/FooterImage.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
 }
 
 .footer h1 {
@@ -12,7 +17,7 @@
 .footer input {
     border: none;
     padding-bottom: 10px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
     outline: none;
 }
@@ -62,9 +67,13 @@
 }
 
 .ending h5 {
-    color: rgb(168, 168, 168);
+    color: rgb(255, 255, 255);
     font-size: 17px;
     font-weight: 300;
     letter-spacing: 4px;
     margin-top: 20PX;
+}
+
+.footer img{
+    width: 210px;
 }
