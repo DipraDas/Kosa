@@ -58,4 +58,8 @@
     text-decoration: none;
     letter-spacing: 1px;
     margin-bottom: 50px;
+    transition: .3s;
+}
+.leftArtDirector a:hover{
+    box-shadow: 0 0 5px 2px #777777;
 }
