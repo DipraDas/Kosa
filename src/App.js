@@ -9,6 +9,7 @@ import Contact from './components/Pages/Contact/Contact';
 import NotFound from './components/Pages/NotFound/NotFound';
 import Header from './components/Shared/Header/Header';
 import HomeComponents from './components/Pages/Home/HomeComponents/HomeComponents';
+import Footer from './components/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <NotFound></NotFound>
         </Route>
       </Switch>
+      <Footer></Footer>
     </BrowserRouter>
   );
 }
