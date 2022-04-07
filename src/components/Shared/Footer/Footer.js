@@ -32,7 +32,6 @@ const Footer = () => {
                                     <input className='w-100 ms-0' type="email" name="email" id="" placeholder='e-mail address here' />
                                 </div>
                                 <div className="col-3 text-right">
-                                    {/* <input type="submit" value="Send" /> */}
                                     <button type="submit">Send</button>
                                 </div>
                             </div>
