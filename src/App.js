@@ -10,6 +10,7 @@ import NotFound from './components/Pages/NotFound/NotFound';
 import Header from './components/Shared/Header/Header';
 import HomeComponents from './components/Pages/Home/HomeComponents/HomeComponents';
 import Footer from './components/Shared/Footer/Footer';
+import CommingSoon from './components/CommingSoon/CommingSoon';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path='/contact'>
           <Contact></Contact>
+        </Route>
+        <Route path='/commingSoon'>
+          <CommingSoon></CommingSoon>
         </Route>
         <Route path='*'>
           <NotFound></NotFound>
