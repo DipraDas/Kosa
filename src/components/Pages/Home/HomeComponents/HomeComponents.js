@@ -8,6 +8,8 @@ import SendingInterest from '../SendingInterest/SendingInterest';
 import ArtDirector from '../ArtDirector/ArtDirector';
 import Colorist from '../Colorist/Colorist';
 import PremiumHair from '../PremiumHair/PremiumHair';
+import FollowUs from '../FollowUs/FollowUs';
+import ClientsSay from '../ClientsSay/ClientsSay';
 
 const HomeComponents = () => {
     return (
@@ -20,6 +22,8 @@ const HomeComponents = () => {
             <PremiumHair></PremiumHair>
             <ArtDirector></ArtDirector>
             <Colorist></Colorist>
+            <FollowUs></FollowUs>
+            <ClientsSay></ClientsSay>
             <SendingInterest></SendingInterest>
         </div>
     );

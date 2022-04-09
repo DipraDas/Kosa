@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className="imgSection">
                         <img
                             className="d-block w-100 imgHeight"
-                            src={Banner1}
+                            src={Banner1} 
                             alt="First slide"
                         />
                     </div>
