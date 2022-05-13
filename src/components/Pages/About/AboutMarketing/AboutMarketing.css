@@ -1,0 +1,36 @@
+.aboutMarketing{
+    background-color: black;
+}
+
+.aboutMarketing .card{
+    background-color: black;
+    padding: 30px 0;
+}
+
+.aboutRow{
+    padding: 60px 5px;
+}
+
+.aboutCImg{
+    width: 90px;
+}
+
+.cardSection{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    gap: 20px;
+}
+
+.cardSection h3{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 50px;
+    color: #FFF;
+}
+
+.cardSection h4{
+    font-size: 20px;
+    color: rgb(199, 199, 199);
+    letter-spacing: 1px;
+    margin-top: -10px;
+}

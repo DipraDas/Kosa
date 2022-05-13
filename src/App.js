@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
-import About from './components/Pages/About/About';
+
 import Services from './components/Pages/Services/Services';
 import Contact from './components/Pages/Contact/Contact';
 import NotFound from './components/Pages/NotFound/NotFound';
@@ -11,6 +11,7 @@ import Header from './components/Shared/Header/Header';
 import HomeComponents from './components/Pages/Home/HomeComponents/HomeComponents';
 import Footer from './components/Shared/Footer/Footer';
 import CommingSoon from './components/CommingSoon/CommingSoon';
+import AboutComponents from './components/Pages/About/AboutComponents/AboutComponents';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <HomeComponents></HomeComponents>
         </Route>
         <Route path='/about'>
-          <About></About>
+          <AboutComponents></AboutComponents>
         </Route>
         <Route path='/services'>
           <Services></Services>
