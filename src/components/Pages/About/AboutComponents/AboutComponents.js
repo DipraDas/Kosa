@@ -5,6 +5,7 @@ import AboutBanner from '../AboutBanner/AboutBanner';
 import AboutJoinOurTeam from '../AboutJoinOurTeam/AboutJoinOurTeam';
 import AboutMarketing from '../AboutMarketing/AboutMarketing';
 import AboutOpeningHour from '../AboutOpeningHour/AboutOpeningHour';
+import AboutStories from '../AboutStories/AboutStories';
 import './AboutComponents.css';
 
 const AboutComponents = () => {
@@ -13,6 +14,7 @@ const AboutComponents = () => {
             <AboutBanner></AboutBanner>
             <AboutMarketing></AboutMarketing>
             <AboutHairstylist></AboutHairstylist>
+            <AboutStories></AboutStories>
             <ClientLogo></ClientLogo>
             <AboutOpeningHour></AboutOpeningHour>
             <AboutJoinOurTeam></AboutJoinOurTeam>
