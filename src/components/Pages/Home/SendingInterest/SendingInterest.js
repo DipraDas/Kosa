@@ -11,6 +11,7 @@ const SendingInterest = () => {
     const messageRef = useRef();
 
     const handleClientRequest = e => {
+        
         const firstName = firstNameRef.current.value;
         const lastName = lastNameRef.current.value;
         const email = emailRef.current.value;

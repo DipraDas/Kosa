@@ -5,13 +5,13 @@ import { Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
 import Services from './components/Pages/Services/Services';
-import Contact from './components/Pages/Contact/Contact';
 import NotFound from './components/Pages/NotFound/NotFound';
 import Header from './components/Shared/Header/Header';
 import HomeComponents from './components/Pages/Home/HomeComponents/HomeComponents';
 import Footer from './components/Shared/Footer/Footer';
 import CommingSoon from './components/CommingSoon/CommingSoon';
 import AboutComponents from './components/Pages/About/AboutComponents/AboutComponents';
+import ContactComponents from './components/Pages/Contact/ContactComponents/ContactComponents';
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           <Services></Services>
         </Route>
         <Route path='/contact'>
-          <Contact></Contact>
+          <ContactComponents></ContactComponents>
         </Route>
         <Route path='/commingSoon'>
           <CommingSoon></CommingSoon>
