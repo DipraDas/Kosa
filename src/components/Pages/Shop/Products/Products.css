@@ -1,0 +1,26 @@
+.proContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.show{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(83, 83, 83);
+}
+
+.rightProducts h4{
+    color: rgb(83, 83, 83);
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.rightProducts h5{
+    color: rgb(83, 83, 83);
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}

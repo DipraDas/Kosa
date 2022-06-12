@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
-import Services from './components/Pages/Services/Services';
 import NotFound from './components/Pages/NotFound/NotFound';
 import Header from './components/Shared/Header/Header';
 import HomeComponents from './components/Pages/Home/HomeComponents/HomeComponents';
@@ -12,6 +11,7 @@ import Footer from './components/Shared/Footer/Footer';
 import CommingSoon from './components/CommingSoon/CommingSoon';
 import AboutComponents from './components/Pages/About/AboutComponents/AboutComponents';
 import ContactComponents from './components/Pages/Contact/ContactComponents/ContactComponents';
+import ShopComponents from './components/Pages/Shop/ShopComponents/ShopComponents';
 
 function App() {
   return (
@@ -27,8 +27,8 @@ function App() {
         <Route path='/about'>
           <AboutComponents></AboutComponents>
         </Route>
-        <Route path='/services'>
-          <Services></Services>
+        <Route path='/shop'>
+          <ShopComponents></ShopComponents>
         </Route>
         <Route path='/contact'>
           <ContactComponents></ContactComponents>
