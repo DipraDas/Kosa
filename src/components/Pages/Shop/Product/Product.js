@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Product.css';
 
 const Product = (props) => {
-    const { img, leftName, rightName, productName, price } = props.product;
+    const { id, img, leftName, rightName, productName, price } = props.product;
     return (
         <div className='product'>
             <img src={img} alt="" />
@@ -13,9 +14,10 @@ const Product = (props) => {
             </div>
             <h1>{productName}</h1>
             <h2>£{price}</h2>
-            <button>Read More</button>
+            <Link to={`/product/${id}`}><button>Read More</button></Link>
         </div>
     );
+    
 };
 
-export default Product;
+export default Product; 

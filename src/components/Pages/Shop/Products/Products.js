@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Categories from '../Categories/Categories';
 import Product from '../Product/Product';
 import UpCommingProduct from '../UpCommingProduct/UpCommingProduct';
 import './Products.css';
@@ -6,17 +7,22 @@ import './Products.css';
 const Products = () => {
     const [products, setProducts] = useState([]);
     const [upcommingProducts, setUpcommingProducts] = useState([]);
+    const [categories, setCategories] = useState([]);
 
     useEffect(() => {
         fetch('../../../product.JSON')
             .then(response => response.json())
             .then(data => setProducts(data));
     }, [])
-
     useEffect(() => {
         fetch('../../../upCommingProduct.JSON')
             .then(response => response.json())
             .then(data => setUpcommingProducts(data));
+    }, [])
+    useEffect(() => {
+        fetch('../../../categories.JSON')
+            .then(response => response.json())
+            .then(data => setCategories(data));
     }, [])
 
     return (
@@ -47,8 +53,15 @@ const Products = () => {
                                     ></UpCommingProduct>
                                 )
                             }
-
                             <h5>Categories</h5>
+                            {
+                                categories.map(category =>
+                                    <Categories
+                                        key={category.id}
+                                        category={category}
+                                    ></Categories>
+                                )
+                            }
                         </div>
                     </div>
                 </div>

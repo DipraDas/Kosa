@@ -12,6 +12,7 @@ import CommingSoon from './components/CommingSoon/CommingSoon';
 import AboutComponents from './components/Pages/About/AboutComponents/AboutComponents';
 import ContactComponents from './components/Pages/Contact/ContactComponents/ContactComponents';
 import ShopComponents from './components/Pages/Shop/ShopComponents/ShopComponents';
+import SelectedProduct from './components/Pages/Shop/SelectedProduct/SelectedProduct';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path='/shop'>
           <ShopComponents></ShopComponents>
+        </Route>
+        <Route path='/product/:productId'>
+          <SelectedProduct></SelectedProduct>
         </Route>
         <Route path='/contact'>
           <ContactComponents></ContactComponents>

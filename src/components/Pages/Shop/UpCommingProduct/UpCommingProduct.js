@@ -2,7 +2,7 @@ import React from 'react';
 import './UpCommingProduct.css';
 
 const UpCommingProduct = ({ upcommingProduct }) => {
-    const { img, leftName, rightName, productName, price } = upcommingProduct;
+    const { img, productName, price } = upcommingProduct;
     return (
         <div className='upcommingProduct'>
             <div className="upcommingProductContent">
